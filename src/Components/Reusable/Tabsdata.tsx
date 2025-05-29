@@ -7,26 +7,41 @@ const Tabsdata = () => {
         <div className="flex flex-col gap-[10px]">
           <h5 className="font-sans font-semibold text-[30px] text-[#222] flex gap-x-1 items-center">
             Owner or Operator :{" "}
-            <span className="text-[#222] font-normal">Caribbean Buzz, LLC</span>
+            <span className="text-[#222] font-normal" contentEditable={true}>
+              Caribbean Buzz, LLC
+            </span>
           </h5>
           <h5 className="font-sans font-semibold text-[30px] text-[#222] flex gap-x-1 items-center">
             Registration :
-            <span className="text-[#222] font-normal">N282ZZ</span>
+            <span className="text-[#222] font-normal" contentEditable={true}>
+              N282ZZ
+            </span>
           </h5>
           <h5 className="font-sans font-semibold text-[30px] text-[#222] flex gap-x-1 items-center">
-            Flight :<span className="text-[#222] font-normal">103</span>
+            Flight :
+            <span className="text-[#222] font-normal" contentEditable={true}>
+              103
+            </span>
           </h5>
         </div>
         <div className="flex flex-col gap-[10px]">
           <h5 className="font-sans font-semibold text-[30px] text-[#222] flex gap-x-1 items-center text-end justify-end">
             Flight Date :
-            <span className="text-[#222] font-normal">26 May 2025</span>
+            <span className="text-[#222] font-normal" contentEditable={true}>
+              26 May 2025
+            </span>
           </h5>
           <h5 className="font-sans font-semibold text-[30px] text-[#222] flex gap-x-1 items-center justify-end">
-            Arrival :<span className="text-[#222] font-normal">(VIJ)</span>
+            Arrival :
+            <span className="text-[#222] font-normal" contentEditable={true}>
+              (VIJ)
+            </span>
           </h5>
           <h5 className="font-sans font-semibold text-[30px] text-[#222] flex gap-x-1 items-center justify-end">
-            Departure :<span className="text-[#222] font-normal">(STT)</span>
+            Departure :
+            <span className="text-[#222] font-normal" contentEditable={true}>
+              (STT)
+            </span>
           </h5>
         </div>
       </div>
@@ -45,19 +60,34 @@ const Tabsdata = () => {
             Nationality
           </h3>
           <ul>
-            <li className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]"
+            >
               USA
             </li>
-            <li className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]"
+            >
               USA
             </li>
-            <li className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]"
+            >
               USA
             </li>
-            <li className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="border-b border-[#222] py-5 text-center font-sans text-[20px] font-normal text-[#222]"
+            >
               USA
             </li>
-            <li className="py-5 text-center font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="py-5 text-center font-sans text-[20px] font-normal text-[#222]"
+            >
               USA
             </li>
           </ul>
@@ -73,13 +103,22 @@ const Tabsdata = () => {
             <li className="border-b border-[#222] py-5 pl-10  font-sans text-[20px] font-normal text-[#222]">
               Crew: Justin R Bartosh 06 Dec 1988 565789374
             </li>
-            <li className="border-b border-[#222] py-5 pl-10 font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="border-b border-[#222] py-5 pl-10 font-sans text-[20px] font-normal text-[#222]"
+            >
               Pax: Gristopher Arenz 19 Dec 1967 A4S777129
             </li>
-            <li className="border-b border-[#222] py-5 pl-10 font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="border-b border-[#222] py-5 pl-10 font-sans text-[20px] font-normal text-[#222]"
+            >
               Pax: Amy Arenz 11 Feb 1971 647527873
             </li>
-            <li className="py-5 pl-10 font-sans text-[20px] font-normal text-[#222]">
+            <li
+              contentEditable={true}
+              className="py-5 pl-10 font-sans text-[20px] font-normal text-[#222]"
+            >
               Pax: Mackenzte Carroll 12 A r 2001 ACYJ637466
             </li>
           </ul>
@@ -93,7 +132,10 @@ const Tabsdata = () => {
               <h4 className="text-[20px] font-sans text-[#222] font-medium">
                 Departure Place:
               </h4>
-              <h5 className="text-[20px] font-sans text-[#222] font-medium">
+              <h5
+                contentEditable={true}
+                className="text-[20px] font-sans text-[#222] font-medium"
+              >
                 STT
               </h5>
             </div>
@@ -123,7 +165,10 @@ const Tabsdata = () => {
               <h4 className="text-[20px] font-sans text-[#222] font-medium">
                 Arrival Place
               </h4>
-              <h5 className="text-[20px] font-sans text-[#222] font-medium">
+              <h5
+                contentEditable={true}
+                className="text-[20px] font-sans text-[#222] font-medium"
+              >
                 VIJ
               </h5>
             </div>

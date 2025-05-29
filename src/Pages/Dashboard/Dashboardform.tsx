@@ -10,12 +10,18 @@ const Dashboardform = () => {
       <section className="bg-[#FFF] px-[60px] py-[100px]">
         <div className="flex justify-between">
           <h5 className="font-sans font-normal text-[24px] text-[#222]">
-            EAPIS: <span className="text-[#E90B0B]">1765456</span>
+            EAPIS:{" "}
+            <span contentEditable={true} className="text-[#E90B0B]">
+              1765456
+            </span>
           </h5>
           <h2 className="font-sans font-bold text-[48px] text-[#222] text-end">
             GENERAL DECLARATION
           </h2>
-          <h5 className="font-sans font-normal text-[24px] text-[#222]">
+          <h5
+            contentEditable={true}
+            className="font-sans font-normal text-[24px] text-[#222]"
+          >
             ICAO Annex 9, Appendix 1
           </h5>
         </div>
