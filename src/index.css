@@ -1,6 +1,6 @@
-@import "tailwindcss";
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -128,3 +128,47 @@
 .react-tabs__tab--selected {
   border-bottom: 2px solid red !important;
 }
+
+.fc-today-button {
+  display: none !important;
+}
+.fc-dayGridMonth-button {
+  display: none !important;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.75em;
+  margin: 7px 26px;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background-color: #d9ecff;
+  border: none;
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background-color: #d9ecff;
+  border: none;
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  margin-left: 5px;
+}
+.fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
+  margin-right: 30px;
+}
+.fc-col-header-cell {
+  padding: 16px 0 !important;
+}
+.fc-event-main {
+  background-color: #d9ecff;
+  padding: 12px 20px !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 20px !important;
+}
+.fc-daygrid-day-frame {
+  padding: 30px 12px;
+}
+

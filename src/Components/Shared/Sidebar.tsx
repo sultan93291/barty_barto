@@ -11,8 +11,12 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   const navItems = [
     { label: "Dashboard", icon: <Dashboardicon />, path: "/dashboard-form" },
-    { label: "Create A Flight", icon: <Flight />, path: "" },
-    { label: "All Passengers & Crew", icon: <Passenger />, path: "" },
+    { label: "Create A Flight", icon: <Flight />, path: "/create-flight" },
+    {
+      label: "All Passengers & Crew",
+      icon: <Passenger />,
+      path: "/allpassenger-crew",
+    },
     { label: "Signature", icon: <Signature />, path: "" },
     { label: "Settings", icon: <Settings />, path: "" },
   ];

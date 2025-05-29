@@ -8,6 +8,8 @@ import Verification from "../Pages/Authpage/Verification";
 import ResetPassword from "../Pages/Authpage/ResetPassword";
 import DashboardLayout from "../Layout/DashboardLayout";
 import Dashboardform from "../Pages/Dashboard/Dashboardform";
+import AllpassengerCrew from "../Pages/Dashboard/AllpassengerCrew";
+import CreateFlight from "../Pages/Dashboard/CreateFlight";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +31,8 @@ export const router = createBrowserRouter([
     errorElement: "",
     children: [
       { path: "/dashboard-form", element: <Dashboardform /> },
+      { path: "/create-flight", element: <CreateFlight /> },
+      { path: "/allpassenger-crew", element: <AllpassengerCrew /> },
     ],
   },
 ]);
